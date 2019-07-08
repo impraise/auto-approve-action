@@ -47,7 +47,7 @@ func main() {
 }
 
 func newClient(ctx context.Context) *github.Client {
-	token := os.Getenv("GITHUB_TOKEN")
+	token := os.Getenv("TOKEN")
 
 	ts := oauth2.StaticTokenSource(
 		&oauth2.Token{AccessToken: token},

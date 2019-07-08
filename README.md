@@ -2,7 +2,7 @@
 
 **Name:** `hmarr/auto-approve-action`
 
-**🔒 Requires the `GITHUB_TOKEN` environment variable checkbox to be checked.**
+**🔒 Requires the `TOKEN` environment variable checkbox to be checked with a GITHUB TOKEN.**
 
 Automatically approve GitHub pull requests. Combine with the filter action to
 only auto-approve certain users. For example, to auto-approve
